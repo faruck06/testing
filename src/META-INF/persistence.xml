@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="testingPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>testing.RutaOcupacion</class>
+    <class>testing.Ruta</class>
+    <class>testing.Horario</class>
+    <class>testing.Empleado</class>
+    <class>testing.RutaHorario</class>
+    <class>testing.RutaExterna</class>
+    <class>testing.TipoEmpleado</class>
+    <class>testing.ActividadPrincipal</class>
+    <class>testing.Novedad</class>
+    <class>testing.TipoVehiculo</class>
+    <class>testing.Ceco</class>
+    <class>testing.Proyecto</class>
+    <class>testing.ServicioIndividual</class>
+    <class>testing.Vehiculo</class>
+    <class>testing.ReporteDiario</class>
+    <class>testing.UsuarioProyecto</class>
+    <class>testing.ActividadNovedad</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://sql5.freemysqlhosting.net:3306/sql5122970?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="sql5122970"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="xwqNy5xu8Z"/>
+    </properties>
+  </persistence-unit>
+</persistence>
