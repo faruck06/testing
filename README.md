@@ -6,3 +6,4 @@ git remote add origin https://github.com/faruck06/testing.git
 git push -u origin master
 # deepFinder
 Online price finder and comparator
+staff
